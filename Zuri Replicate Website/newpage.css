@@ -1,0 +1,348 @@
+header{
+    background-color: white;
+}
+
+nav{
+    display: flex;
+    padding: 0px;
+    margin: 10px 30px 10px 50px;
+    align-items: center;
+}
+
+.nav2{
+    padding-left: 500px;
+}
+
+.nav2 ul{
+    list-style: none;
+    padding: 0px;
+    float: right;
+}
+
+.nav2 a{
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.nav2 li{
+    display: inline;
+    padding-left: 15px;
+    margin-left: 30px;   
+}
+
+.nav2 button{
+    padding: 10px 20px 10px 20px;
+    margin-left: 35px;   
+    background-color: red;
+    color: white;
+    border: none;
+    border-bottom-right-radius: 10px;
+}
+
+.container-1{
+    display: flex;
+    width: 90%;
+    padding: 20px;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.cont-div1{
+    width: 50%;
+    padding: 100px 30px 10px 0px;
+    margin: 50px 20px 10px 0px;
+}
+
+.cont-div2{
+    width: 50%;
+   /* padding: 20px;*/
+   /* margin: 20px 10px 20px 50px; */
+}
+
+.cont-div2 img{
+    width: 400px;
+    margin-left: 150px;
+}
+
+.cont-div1 h1{
+    font-size: 40px;
+}
+
+.cont-div1 #span1{
+    font-size: 40px;
+    color: red;
+}
+
+.cont-div1 p{
+    font-size: 20px;
+    width: 85%;
+    word-spacing: 2px;
+}
+
+.container-1 #button1{
+    background-color: red;
+    color: white;
+    padding: 10px 40px 10px 40px;
+    border: none;
+    border-bottom-right-radius: 5px;
+    font-size: 18px;
+}
+
+.container-1 #button2{
+    background-color: rgb(135, 117, 116);
+    color: white;
+    padding: 10px 40px 10px 40px;
+    border: none;
+    border-bottom-right-radius: 5px;
+    font-size: 18px;
+}
+
+/*
+.cont2-div1{
+    padding: 0px;
+    margin-left: 350px;
+}
+.cont2-div2{
+    margin-right: 300px;
+}*/
+
+.cont2-div2 img{
+    width: 400px;
+    margin-right: 40px;
+}
+
+.container-2{
+    display: flex;
+    width: 90%;
+    padding: 20px;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.cont2-div1 h1{
+    font-size:40px;
+}
+
+.cont2-div1 p{
+    font-size: 20px;
+}
+.cont2-div1 #span2 {
+    font-size: 40px;
+    color: red;
+}
+
+.cont2-div1 #countries{
+    display: inline;
+    padding: 10px 10px 10px 0px;
+}
+
+.Talent-skills h1{
+    font-size: 40px;
+}
+
+.Talent-skills{
+    padding: 30px;
+    margin: 30px;
+}
+
+.Talent-skills #First-set-BtN{
+    font-size: 18px;
+    padding: 15px;
+    margin: 12px;
+    background: white;
+    border: 0;
+}
+
+.Talent-skills #First-set-BtN:hover{
+    font-size: 18px;
+    border: thin 3px transparent;
+    padding: 15px;
+    margin: 12px;
+    background: white;
+    transform: 0.5s;
+}
+
+
+.Talent-skills #second-set-BtN{
+    font-size: 17px;
+    padding: 12px;
+    margin: 10px;
+    background-color:white;
+    border: 0;
+}
+
+.Talent-skills #span3{
+    font-size: 40px;
+    color: red;
+}
+
+.Last1-section{
+    display: flex;
+    padding: 15px;
+    margin: 30px;
+    width: 90%;
+}
+
+.section-with-back{
+    background-color: rgb(255, 205, 158);
+}
+
+.section-with-back h1{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 35px;
+}
+
+#Last-sections-span{
+    font-size: 40px;
+    color: red;
+}
+
+.Last2-section{
+    display: flex;
+    padding: 15px;
+    margin: 30px;
+    width: 90%;
+    justify-content: center;
+}
+
+#Last1-section-div1{
+    width: 350px;
+    background-color: white;
+    font-size: 20px;
+    padding: 15px;
+    margin: 15px;
+    border-bottom-right-radius: 10px;
+}
+
+#Last1-section-div1 img{
+    justify-content: center;
+}
+
+#Last1-section-div2{
+    width: 350px;
+    background-color: white;
+    font-size: 20px;
+    padding: 15px;
+    margin: 15px;
+    border-bottom-right-radius: 10px;
+}
+
+#Last1-section-div3{
+    width: 350px;
+    background-color: white;
+    font-size: 20px;
+    padding: 15px;
+    margin: 15px;
+    border-bottom-right-radius: 10px;
+}
+
+#Last2-section-div1{
+    width: 350px;
+    background-color: white;
+    font-size: 20px;
+    padding: 15px;
+    margin: 15px;
+    border-bottom-right-radius: 10px;
+}
+
+#Last2-section-div2{
+    width: 350px;
+    background-color: white;
+    font-size: 20px;
+    padding: 15px;
+    margin: 15px;
+    border-bottom-right-radius: 10px;
+}
+
+.Last-button{
+    text-align: center;
+    padding: 30px;
+}
+
+.Last-button #button3{
+    background-color: red;
+    color: white;
+    padding: 10px 40px 10px 40px;
+    border: none;
+    border-bottom-right-radius: 5px;
+    font-size: 18px;
+}
+
+.Last-button #button4{
+    background-color:  rgb(135, 117, 116);
+    color: white;
+    padding: 10px 40px 10px 40px;
+    border: none;
+    border-bottom-right-radius: 5px;
+    font-size: 18px;
+}
+
+footer{
+    background-color: black;
+    padding: 50px;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.footer-div1{
+    padding: 30px;
+}
+
+.footer-div2{
+    padding: 30px;
+}
+
+.footer-div2 img{
+    width: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
